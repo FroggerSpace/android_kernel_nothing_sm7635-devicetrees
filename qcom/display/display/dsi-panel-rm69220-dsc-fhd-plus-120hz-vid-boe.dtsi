@@ -234,14 +234,6 @@
 					15 01 00 00 00 00 02 2F 06
 				];
 				qcom,mdss-dsi-switch-60hz-command-state = "dsi_hs_mode";
-				qcom,mdss-dsi-switch-30hz-command = [
-					05 01 00 00 00 00 01 39
-				];
-				qcom,mdss-dsi-switch-30hz-command-state = "dsi_hs_mode";
-				qcom,mdss-dsi-exit-30hz-command = [
-					39 01 00 00 00 00 03 51 00 00
-					05 01 00 00 00 00 01 38];
-				qcom,mdss-dsi-exit-30hz-command-state = "dsi_hs_mode";
 
 				qcom,mdss-dsi-h-sync-pulse = <0>;
 				qcom,compression-mode = "dsc";

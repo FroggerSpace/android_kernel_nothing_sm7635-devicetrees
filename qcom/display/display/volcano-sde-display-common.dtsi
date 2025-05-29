@@ -264,7 +264,7 @@
 &dsi_rm69220_amoled_120hz_vid_boe {
 	qcom,dsi-select-clocks = "pll_byte_clk0", "pll_dsi_clk0";
 
-	qcom,dsi-supported-dfps-list = <120 90 60 30>;
+	qcom,dsi-supported-dfps-list = <120 90 60>;
 	qcom,mdss-dsi-pan-enable-dynamic-fps;
 	qcom,mdss-dsi-pan-fps-update = "dfps_immediate_porch_mode_both_hv_porch";
 	qcom,dsi-dfps-hfp-list = <36 36 36 1124>;
@@ -297,7 +297,7 @@
 &dsi_rm69220_amoled_120hz_vid_vxn {
 	qcom,dsi-select-clocks = "pll_byte_clk0", "pll_dsi_clk0";
 
-	qcom,dsi-supported-dfps-list = <120 90 60 30>;
+	qcom,dsi-supported-dfps-list = <120 90 60>;
 	qcom,mdss-dsi-pan-enable-dynamic-fps;
 	qcom,mdss-dsi-pan-fps-update = "dfps_immediate_porch_mode_both_hv_porch";
 	qcom,dsi-dfps-hfp-list = <48 48 48 1140>;
