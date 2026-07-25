@@ -15,3 +15,4 @@ dtbo-$(CONFIG_ARCH_VOLCANO)     += volcano-camera-qrd.dtbo
 dtbo-$(CONFIG_ARCH_VOLCANO)     += volcano-camera-sensor-mtp.dtbo
 dtbo-$(CONFIG_ARCH_VOLCANO)     += volcano-camera-sensor-idp.dtbo
 dtbo-$(CONFIG_ARCH_VOLCANO)     += volcano-camera-sensor-qrd.dtbo
+dtbo-$(CONFIG_ARCH_VOLCANO)     += volcano-frogger-camera-sensor-qrd.dtbo
