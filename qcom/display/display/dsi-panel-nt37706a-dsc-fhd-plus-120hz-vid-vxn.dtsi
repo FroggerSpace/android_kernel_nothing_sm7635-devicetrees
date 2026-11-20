@@ -129,35 +129,6 @@
 				];
 				qcom,mdss-dsi-switch-60hz-command-state-compatibility = "dsi_hs_mode";
 
-				qcom,mdss-dsi-switch-30hz-gear0-command = [
-						39 01 00 40 00 00 1F A9 01 00 51 04 05 00 00 02 00 B4 68 6F 00 04 00 04 00 04 00 04 02 01 E7 01 05 20 18 08 88 0C
-						05 01 00 00 00 00 01 39
-				];
-				qcom,mdss-dsi-switch-30hz-gear0-command-state = "dsi_hs_mode";
-
-				qcom,mdss-dsi-switch-30hz-gear1-command = [
-						39 01 00 40 00 00 1F A9 01 00 51 04 05 01 55 02 00 B4 68 6F 00 04 00 04 00 04 00 04 02 01 E7 01 05 20 18 08 88 0C
-						05 01 00 00 00 00 01 39
-				];
-				qcom,mdss-dsi-switch-30hz-gear1-command-state = "dsi_hs_mode";
-
-				qcom,mdss-dsi-switch-30hz-gear2-command = [
-						39 01 00 40 00 00 1F A9 01 00 51 04 05 08 00 02 00 B4 68 6F 00 04 00 18 00 20 00 20 02 01 E7 01 05 20 18 18 28 0C
-						05 01 00 00 00 00 01 39
-				];
-				qcom,mdss-dsi-switch-30hz-gear2-command-state = "dsi_hs_mode";
-
-				qcom,mdss-dsi-switch-30hz-gear3-command = [
-						39 01 00 40 00 00 1F A9 01 00 51 04 05 0F FF 02 00 B4 68 6F 00 04 00 18 00 20 00 20 02 01 E7 01 05 20 18 18 28 0C
-						05 01 00 00 00 00 01 39
-				];
-				qcom,mdss-dsi-switch-30hz-gear3-command-state = "dsi_hs_mode";
-				qcom,mdss-dsi-exit-30hz-command = [
-						39 01 00 40 00 00 03 51 00 00
-						05 01 00 00 00 00 01 38
-				];
-				qcom,mdss-dsi-exit-30hz-command-state = "dsi_hs_mode";
-
 				qcom,mdss-dsi-lhbm-on-command = [
 					39 01 00 00 00 00 19 A9 01 00 87 00 00 25 02 00 DF 0F 0F 00 02 00 DF 74 74 00 01 00 8B 01 01 01
 				];
